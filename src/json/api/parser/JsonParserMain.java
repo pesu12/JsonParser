@@ -25,7 +25,8 @@ class JsonParser {
 	}
 
 	/**
-	 * Method getUrl that fetches Json from web and return data. Inparameter: -
+	 * Method getUrl that fetches Json from web and return data. 
+	 * Inparameter: -
 	 * Return value: url
 	 */
 	URL getUrl() {
@@ -40,8 +41,9 @@ class JsonParser {
 	}
 
 	/**
-	 * Method getTokener that get token from url-data. Inparameter: url Return
-	 * value: tokener
+	 * Method getTokener that get token from url-data. 
+	 * Inparameter: url 
+	 * Return value: tokener
 	 */
 	JSONTokener getTokener(URL url) {
 		JSONTokener tokener = null;
@@ -54,8 +56,9 @@ class JsonParser {
 	}
 
 	/**
-	 * Method displayJson that fetches tokener and displays result. Inparameter:
-	 * tokener Return value: -
+	 * Method displayJson that fetches tokener and displays result. 
+	 * Inparameter: tokener 
+	 * Return value: -
 	 */
 	String displayJson(JSONTokener tokener) {
 		JSONObject obj = new JSONObject(tokener);
@@ -66,7 +69,8 @@ class JsonParser {
 	}
 
 	/**
-	 * Method parse that is the main function of class JsonParser. Inparameter: -
+	 * Method parse that is the main function of class JsonParser. 
+	 * Inparameter: -
 	 * Return value: -
 	 */
 	public void parse() {
